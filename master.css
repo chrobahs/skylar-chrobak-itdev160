@@ -1,0 +1,37 @@
+body {
+  word-spacing: 3px;
+  background-color: rgb(191,224,243);
+  color: rgb(164,179,188);
+  padding:15px;
+  font-family: Arial, Verdana, sans-serif;}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  word-spacing: 3px;
+  background-color: #FE99F1;
+  color: hsla(360, 100%, 100%, 0.5);
+  padding:10px;
+  text-transform: capitalize;}
+b {
+  color:fuchsia;}
+i {
+  color:maroon;}
+h2 {
+  text-align: left;}
+p#intro {
+  font-size:80%;}
+p: first-letter{
+  text-transform: capitalize;
+  line-height: 2em;}
+img {
+  width: 100px;
+  height: 100px;}
+a:link {
+  color: lavendarblush;}
+a: visited {
+  color:rosybrown;}
+a:hover {
+  color:thistle;
+  text-decoration: underline;}
+a[target="_blank"]{
+  background-color: aqua;}
