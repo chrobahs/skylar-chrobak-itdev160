@@ -1,14 +1,13 @@
 body {
-  background-color: rgb(191,224,243);
-  color: rgb(164,179,188);
-  padding:15px;
-  font-family: Arial, Verdana, sans-serif;}
+  background-color: #B2A2E1;
+  color: rgb(247,202,201);
+  font-family: Arial,serif;}
 h1 {
-  background-color: #FE99F1;
-  color: hsla(360, 100%, 100%, 0.5);
-  padding:10px;
-}
-.container {
-  width: 100px;
-  height: 100px;
-}
+  background-color: #B2A2E1;
+  color: hsla(256, 45%, 42%);
+  font-family: Arial,sans-serif;}
+div {
+  width: 300px;}
+img {
+  width: 800px;
+  height: 300px;}
