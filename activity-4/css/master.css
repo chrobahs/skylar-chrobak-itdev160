@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(191,224,243);
+  color: rgb(164,179,188);
+  padding:15px;
+  font-family: Arial, Verdana, sans-serif;}
+h1 {
+  background-color: #FE99F1;
+  color: hsla(360, 100%, 100%, 0.5);
+  padding:10px;
+}
+.container {
+  width: 100px;
+  height: 100px;
+}
