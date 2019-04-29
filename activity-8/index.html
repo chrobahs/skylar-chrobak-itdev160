@@ -1,0 +1,35 @@
+<html>
+<head><title>Disney Lover's Blog!</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <h1 class="header-title">Disney Lovers Blog!</h1>
+    <div class="header-menu">
+      <button id="new-button">New Post</button>
+    </div>
+  </header>
+  <main>
+    <section id="display-content"></section>
+  </main>
+  <footer>
+    All posts are those of personal opinions and do not represent the Disney
+    Company or its affliates in any way.
+  </footer>
+
+<div class="modal" id="modal-dialog">
+  <section>
+    <h2>Title</h2>
+    <input type="text" id="edit-title-text">
+    <span id="edit-title-message"></span>
+  </section>
+  <footer>
+    <button type="button" id="cancel-button">Cancel Post</button>
+    <button type="button" id="save-button">Save Post</button>
+  </footer>
+</div>
+<div id="modal-backdrop"></div>
+<script src="js/scripts.js" charset="utf-8"></script>
+</body>
+</html>
