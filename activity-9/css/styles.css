@@ -1,0 +1,51 @@
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: fantasy;
+}
+main{
+  display: flex;
+  flex: 1;
+}
+#main-header{
+  background-color: #E599C9 ;
+}
+#main-header h1{
+  color: #B7167C;
+  font-size: ;
+  text-align: center;
+}
+#sidebar{
+  width:200px;
+  flex: 0 0 12em;
+  background-color: #F49DF7;
+}
+#sidebar ul{
+  color: #D521DB;
+  padding: 0 0 15px 30px;
+}
+#sidebar ul li:hover{
+  cursor: pointer;
+  background-color: #7EE0FE;
+}
+#post-container{
+  flex:1;
+  background-color: #D0F66A;
+  padding: 15px;
+}
+#intro{
+  display:none;
+}
+blockquote:before,
+blockquote:after{
+  content:'"';
+}
+.author{
+  width:75%;
+  display: inline-block;
+  text-indent:10%;
+}
+.author:before{
+  content:'-';
+}
