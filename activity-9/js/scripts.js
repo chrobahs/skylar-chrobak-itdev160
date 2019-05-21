@@ -36,7 +36,7 @@ var data=[
     author: 'Mae West'
   }
 ]
-var $nav=$('$nav-container')
+var $nav=$('#nav-container')
 var $intro=$('#intro')
 var $posts=$('#post-container')
 function initPosts(){
